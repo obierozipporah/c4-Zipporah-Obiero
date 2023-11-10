@@ -9,11 +9,35 @@ function App() {
   return (
    <div>
       <h1>Hello World</h1>
-     
-        <p>
-           I am Zipporah Obiero, and this is my first React application
+
+  <div>
+    <h2>Full Name</h2>
+        <p>Zipporah Obiero</p>
+  </div>
+
+  <div>
+    <h2>Educational Background</h2>
+        <p><b>2022-2025:</b> Multimedia University <br></br>
+           <b>2018-2022:</b> Kisumu Girls <br></br>
+           <b>2006-2017:</b> Legacy School
+        
         </p>
   </div>
+
+  <div>
+    <h2>Professional Background</h2>
+        <p>Unemployed</p>
+  </div>
+
+  <div>
+    <h2>Skills</h2>
+        <p>Html/Css <br></br>
+          JavaScript <br></br>
+          React
+        </p>
+  </div>
+</div>
+
      
   )
 }
