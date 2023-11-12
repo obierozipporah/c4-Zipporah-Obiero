@@ -2,11 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Button from './components/Button.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+   
    <div>
       <h1>Hello World</h1>
 
@@ -36,6 +38,14 @@ function App() {
           React
         </p>
   </div>
+
+  <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h3>Buttons</h3>
+      <div>
+        <Button label="Login" />
+        <Button label="Signin" />
+      </div>
+    </div>
 </div>
 
      
